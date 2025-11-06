@@ -5,6 +5,7 @@ function generateRandom() {
     if (isNaN(min) || isNaN(max) || min > max) {
         document.getElementById('result').innerText = "Please enter a valid range.";
         return;
+    }
     const random = Math.floor(Math.random() * (max - min + 1)) + min;
     document.getElementById('result').innerText = "🎲 Random Number: " + random;
 }
