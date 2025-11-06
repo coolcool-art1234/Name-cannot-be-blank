@@ -6,7 +6,7 @@ function generateRandom() {
         document.getElementById('result').innerText = "Please enter a valid range.";
         return;
     }
-    if (random = 999) {
+    if (random == 999) {
         document.getElementById('result').innerText = "Please enter a valid range.";
         return;
     }
